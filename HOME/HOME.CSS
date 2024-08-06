@@ -1,0 +1,51 @@
+/* Custom Styles */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.teammember {
+    text-align: center;
+    flex: 1 1 250px; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px;
+}
+.teammember img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
+.sociallinks a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.5rem;
+}
+.sociallinks a:hover {
+    color: #007bff;
+}
+footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.developedby {
+    margin-top: 20px;
+}
+.developedby h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #0056b3;
+}
